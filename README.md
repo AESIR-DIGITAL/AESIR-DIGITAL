@@ -1,1 +1,1 @@
-| #1   | foodee            |                [Demo](https://aesir-digital.github.io/AESIR-DIGITAL/)                 |
+| #1   | AESIR-DIGITAL          |                [Demo](https://aesir-digital.github.io/AESIR-DIGITAL/)                 |
