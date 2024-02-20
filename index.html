@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AESIR DIGITAL</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script defer src="script.js"></script>
+</head>
+<body class="bg-blue-50 text-gray-800">
+    <header class="bg-blue-900 text-white p-5">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-bold">AESIR DIGITAL</a>
+            <button class="md:hidden mobile-menu-button">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+        <nav class="hidden md:flex md:justify-center">
+            <ul class="flex">
+                <li><a href="#accueil" class="block px-2 py-4 hover:bg-blue-700">Accueil</a></li>
+                <li><a href="#competences" class="block px-2 py-4 hover:bg-blue-700">Compétences</a></li>
+                <li><a href="#projets" class="block px-2 py-4 hover:bg-blue-700">Projets</a></li>
+                <li><a href="#a-propos" class="block px-2 py-4 hover:bg-blue-700">À propos</a></li>
+                <li><a href="#contact" class="block px-2 py-4 hover:bg-blue-700">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <!-- Menu mobile -->
+        <nav class="mobile-menu hidden md:hidden">
+            <ul>
+                <li><a href="#accueil" class="block text-sm px-2 py-4 text-white bg-blue-700">Accueil</a></li>
+                <li><a href="#competences" class="block text-sm px-2 py-4 hover:bg-blue-700 text-white">Compétences</a></li>
+                <li><a href="#projets" class="block text-sm px-2 py-4 hover:bg-blue-700 text-white">Projets</a></li>
+                <li><a href="#a-propos" class="block text-sm px-2 py-4 hover:bg-blue-700 text-white">À propos</a></li>
+                <li><a href="#contact" class="block text-sm px-2 py-4 hover:bg-blue-700 text-white">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+
+    <main class="container mx-auto mt-10">
+        <section id="accueil" class="text-center py-10">
+            <h1 class="text-5xl font-bold text-blue-900">AESIR DIGITAL</h1>
+            <p class="text-xl mt-5">Votre partenaire freelance en développement front-end</p>
+        </section>
+
+        <section id="competences" class="py-12 bg-gray-100">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-8 text-center">Compétences en Autodidacte</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Compétence 1 -->
+                    <div class="bg-white rounded-lg p-6 shadow-md">
+                        <div class="flex items-center justify-center mb-4">
+                            <img src="Image/Image1.jpg" alt="Icone compétence 1" class="h-12 w-12">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Maîtrise des langages HTML, CSS et JavaScript</h3>
+                        <p class="text-gray-700">En tant que développeur front-end autodidacte, je possède une solide maîtrise des langages fondamentaux du web, notamment HTML pour la structure, CSS pour le style et JavaScript pour l'interactivité. Cette expertise me permet de créer des interfaces utilisateur attrayantes et fonctionnelles, en veillant à ce qu'elles offrent une expérience utilisateur optimale.</p>
+                    </div>
+        
+                    <!-- Compétence 2 -->
+                    <div class="bg-white rounded-lg p-6 shadow-md">
+                        <div class="flex items-center justify-center mb-4">
+                            <img src="Image/Image1.jpg" alt="Icone compétence 2" class="h-12 w-12">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Connaissance des frameworks et bibliothèques front-end</h3>
+                        <p class="text-gray-700">J'ai acquis une expérience pratique avec différents frameworks et bibliothèques front-end tels que React.js, Vue.js et Angular. Cette connaissance approfondie me permet de développer des applications web robustes et interactives en utilisant des composants réutilisables et des pratiques de développement modernes.</p>
+                    </div>
+        
+                    <!-- Compétence 3 -->
+                    <div class="bg-white rounded-lg p-6 shadow-md">
+                        <div class="flex items-center justify-center mb-4">
+                            <img src="Image/Image1.jpg" alt="Icone compétence 3" class="h-12 w-12">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-2">Capacité à résoudre des problèmes et à déboguer le code</h3>
+                        <p class="text-gray-700">En tant que développeur passionné, je possède une capacité naturelle à résoudre les problèmes et à déboguer le code. Je suis capable d'identifier, d'analyser et de résoudre efficacement les bugs et les problèmes de compatibilité entre navigateurs. Grâce à ma familiarité avec les outils de débogage du navigateur et les techniques de débogage, je suis en mesure de garantir le bon fonctionnement de mes applications web.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="projets" class="py-10">
+            <h2 class="text-3xl font-bold text-center text-blue-900 mb-10">Projets</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-6xl mx-auto">
+                <!-- Projet 1 -->
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="Image/Image1.jpg" alt="Description du Projet 1" class="w-full h-56 object-cover object-center">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Nom du Projet 1</h3>
+                        <p class="mb-3">Brève description du projet, les problèmes qu'il résout, les technologies utilisées.</p>
+                        <a href="https://github.com/AESIR-DIGITAL/AESIR-DIGITAL" target="_blank" class="inline-block bg-blue-600 text-white px-3 py-2 rounded-lg">Voir le projet</a>
+                        <a href="https://github.com/AESIR-DIGITAL/AESIR-DIGITAL/blob/main/aesir%20digital/index.html" target="_blank" class="inline-block bg-gray-600 text-white px-3 py-2 rounded-lg ml-2">Code source</a>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="Image/Image1.jpg" alt="Description du Projet 1" class="w-full h-56 object-cover object-center">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Nom du Projet 1</h3>
+                        <p class="mb-3">Brève description du projet, les problèmes qu'il résout, les technologies utilisées.</p>
+                        <a href="lien_vers_projet" target="_blank" class="inline-block bg-blue-600 text-white px-3 py-2 rounded-lg">Voir le projet</a>
+                        <a href="lien_vers_code_source" target="_blank" class="inline-block bg-gray-600 text-white px-3 py-2 rounded-lg ml-2">Code source</a>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="Image/Image1.jpg" alt="Description du Projet 1" class="w-full h-56 object-cover object-center">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Nom du Projet 1</h3>
+                        <p class="mb-3">Brève description du projet, les problèmes qu'il résout, les technologies utilisées.</p>
+                        <a href="lien_vers_projet" target="_blank" class="inline-block bg-blue-600 text-white px-3 py-2 rounded-lg">Voir le projet</a>
+                        <a href="lien_vers_code_source" target="_blank" class="inline-block bg-gray-600 text-white px-3 py-2 rounded-lg ml-2">Code source</a>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="Image/Image1.jpg" alt="Description du Projet 1" class="w-full h-56 object-cover object-center">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Nom du Projet 1</h3>
+                        <p class="mb-3">Brève description du projet, les problèmes qu'il résout, les technologies utilisées.</p>
+                        <a href="lien_vers_projet" target="_blank" class="inline-block bg-blue-600 text-white px-3 py-2 rounded-lg">Voir le projet</a>
+                        <a href="lien_vers_code_source" target="_blank" class="inline-block bg-gray-600 text-white px-3 py-2 rounded-lg ml-2">Code source</a>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="Image/Image1.jpg" alt="Description du Projet 1" class="w-full h-56 object-cover object-center">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Nom du Projet 1</h3>
+                        <p class="mb-3">Brève description du projet, les problèmes qu'il résout, les technologies utilisées.</p>
+                        <a href="lien_vers_projet" target="_blank" class="inline-block bg-blue-600 text-white px-3 py-2 rounded-lg">Voir le projet</a>
+                        <a href="lien_vers_code_source" target="_blank" class="inline-block bg-gray-600 text-white px-3 py-2 rounded-lg ml-2">Code source</a>
+                    </div>
+                </div>
+
+                <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="Image/Image1.jpg" alt="Description du Projet 1" class="w-full h-56 object-cover object-center">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold">Nom du Projet 1</h3>
+                        <p class="mb-3">Brève description du projet, les problèmes qu'il résout, les technologies utilisées.</p>
+                        <a href="https://github.com/AESIR-DIGITAL/FantasyRoll" target="_blank" class="inline-block bg-blue-600 text-white px-3 py-2 rounded-lg">Voir le projet</a>
+                        <a href="https://github.com/AESIR-DIGITAL/FantasyRoll/blob/main/FantasyRoll/FantasyRoll.py" target="_blank" class="inline-block bg-gray-600 text-white px-3 py-2 rounded-lg ml-2">Code source</a>
+                    </div>
+                </div>
+                <!-- Répétez la structure pour d'autres projets -->
+            </div>
+        </section>
+        
+
+        <section id="a-propos" class="py-12">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold mb-8 text-center">À Propos</h2>
+                
+                <div class="bg-white rounded-lg p-6 shadow-md">
+                    <p class="text-gray-700 leading-relaxed mb-4">En tant que développeur front-end autodidacte, ma passion pour le monde numérique et la création d'interfaces web élégantes et intuitives a été le moteur de mon apprentissage continu. Sans diplôme formel, c'est l'enthousiasme pour la technologie et une curiosité insatiable qui ont pavé mon chemin dans le secteur de l'informatique. Chaque ligne de code est pour moi une pièce d'un puzzle artistique, où je mets en scène le design fourni par les web designers, donnant vie à des expériences utilisateur immersives et dynamiques.</p>
+                    <p class="text-gray-700 leading-relaxed mb-4">Mon expertise technique s'étend sur les technologies clés du développement web : HTML pour la structure sémantique, CSS pour le style visuel raffiné, et JavaScript pour une interactivité riche. Maîtrisant les derniers frameworks tels que React.js et Vue.js, je construis des sites réactifs adaptés à une gamme variée de dispositifs et d'écrans. Chaque projet est une occasion de peaufiner mon art, en transformant des maquettes statiques en expériences web fluides et fonctionnelles.</p>
+                    <p class="text-gray-700 leading-relaxed mb-4">Autodidacte dévoué, je me suis formé aux meilleures pratiques de l'industrie non seulement par l'étude, mais aussi par l'expérimentation et la résolution de problèmes complexes. Cette approche pratique m'a permis de développer une compréhension approfondie des nuances du développement front-end. Mon objectif est clair : fournir des solutions web qui allient esthétique et performance, tout en restant à la pointe des tendances et des innovations technologiques.</p>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <section id="contact" class="py-10">
+            <h2 class="text-3xl font-bold text-center text-blue-900">Contact</h2>
+            <form action="#" method="POST" class="max-w-lg mx-auto">
+                <div class="mb-6">
+                    <label for="name" class="block mb-2 text-sm font-medium text-gray-900">Votre nom</label>
+                    <input type="text" id="name" name="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required>
+                </div>
+                <div class="mb-6">
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Votre email</label>
+                    <input type="email" id="email" name="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required>
+                </div>
+                <div class="mb-6">
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900">Votre message</label>
+                    <textarea id="message" name="message" rows="4" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required></textarea>
+                </div>
+                <button type="submit" class="py-2 px-4 bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 rounded-lg">
+                    Envoyer
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-blue-900 text-white text-center p-5">
+        © 2024 AESIR DIGITAL. Tous droits réservés.
+    </footer>
+</body>
+</html>
